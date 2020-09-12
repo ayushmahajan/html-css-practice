@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input</title>
+</head>
+<body>
+    <form action="some_backend_file">
+        <!-- Text Input -->
+        <div>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname">
+        </div>
+        <div>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lname">
+        </div>
+        <!-- Email Input -->
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="ayush@example.com">
+        </div>
+        <!-- Select Input -->
+        <div>
+            <label for="country">Country</label><br>
+            <select name="country" id="country">
+                <option value="India">India</option>
+            </select>
+        </div>
+        <!-- Date Input -->
+        <div>
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" name="dob" id="dob">
+        </div>
+        <!-- Text Area -->
+        <div>
+            <label for="about">Bio</label><br>
+            <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <!-- Checkbox Input -->
+        <div>
+            <label for="acceptTnC"></label>
+            <input type="checkbox" name="acceptTnC" id="acceptTnC" checked> Accept the terms and conditions
+        </div>
+        <!-- Button Submit-->
+        <div>
+            <br><button type="submit">Submit</button>
+            <!-- Reset Button -->
+            <button type="reset">Reset values</button>
+        </div>
+    </form>
+
+</body>
+</html>
