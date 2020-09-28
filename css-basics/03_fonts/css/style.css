@@ -1,0 +1,15 @@
+.primary-heading {
+    color: teal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+} 
+
+#welcome p span {
+    font-weight: bold;
+}
+
+#about p span {
+    font-style: italic;
+}
