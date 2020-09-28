@@ -1,0 +1,14 @@
+#welcome {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+#welcome h2 {
+    /* Using color name */
+    color: coral;
+}
+
+#welcome p {
+    /* Using hex value */
+    color: #00a000;
+}
