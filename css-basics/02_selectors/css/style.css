@@ -1,0 +1,29 @@
+/* # is used to refer a tag's id */
+#primary-heading { 
+    color: green;
+}
+
+/* . is used to refer a tag's class */
+.secondary-heading {
+    color: red;
+}
+
+#welcome {
+    background-color: #f4f4f4;
+}
+
+/* Multiple Selectors */
+#welcome, #about {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* Nested Selectors */
+#welcome p {
+    font-size: 20px;
+}
+
+body {
+    background-color: yellow;
+}
